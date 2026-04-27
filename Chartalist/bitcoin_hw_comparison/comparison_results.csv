@@ -1,0 +1,6 @@
+Hardware,Model,Training Time (s),RAM Delta (GB),Disk Delta (GB),Accuracy,F1 Score,Precision,Recall,RAM Before (GB),RAM After (GB),Disk Before (GB),Disk After (GB),model_obj,Ransomware Recall,model,threshold,Threshold,Ransomware Precision,Num Features
+CPU,XGBoost+SMOTE,150.7837,0.1562,0.000153,0.9721,0.9755,0.9794,0.9721,5.17,5.327,20.679,20.679,,0.344,<xgboost.core.Booster object at 0x7d4272a298b0>,0.9989252686500548,,,
+CPU,XGBoost (scale_pos_weight=ratio*10),131.0735,0.0349,0.001125,0.5686,0.7106,0.9861,0.5686,5.186,5.221,20.679,20.68,,0.9942,<xgboost.core.Booster object at 0x7d42739069c0>,0.1,,,
+CPU,XGBoost,128.8202,0.0368,5.3e-05,0.9361,0.9566,0.985,0.9361,5.074,5.111,20.682,20.682,,0.8,,,0.9066,0.1568,
+CPU,XGBoost+FE,214.975,0.5499,0.00042,0.9349,0.9559,0.985,0.9349,4.901,5.451,20.615,20.616,,0.8,,,0.9082,0.1544,26.0
+GPU,XGBoost+FE,7.8729,0.0688,0.0,0.9363,0.9567,0.985,0.9363,5.313,5.382,42.9,42.9,,0.8,,,0.9083,0.1572,26.0
