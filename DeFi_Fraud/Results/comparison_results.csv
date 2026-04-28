@@ -1,0 +1,3 @@
+Hardware,Model,Training Time (s),RAM Delta (GB),Disk Delta (GB),Accuracy,F1 Score,Precision,Recall,RAM Before (GB),RAM After (GB),Disk Before (GB),Disk After (GB)
+CPU,Random Forest,133.3691,0.0092,-0.004986,0.9992,0.9992,0.9992,0.9992,5.25,5.259,21.486,21.481
+CPU,XGBoost,43.7852,0.1079,0.000286,1.0,1.0,1.0,1.0,5.711,5.819,21.481,21.481

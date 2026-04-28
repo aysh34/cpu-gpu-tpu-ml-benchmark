@@ -1,0 +1,4 @@
+Hardware,Time (s),Speedup vs CPU
+CPU,15.2747,1.0
+GPU,23.5402,0.65
+TPU,12.0895,1.26

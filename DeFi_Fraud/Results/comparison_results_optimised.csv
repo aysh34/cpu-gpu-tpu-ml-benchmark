@@ -1,0 +1,4 @@
+Hardware,Model,Accuracy,F1 Score,PR-AUC,Fraud Recall
+CPU,Random Forest (optimised),0.929,0.3922,0.6458,0.2466
+CPU,XGBoost (optimised),0.945,0.5915,0.9677,0.4288
+CPU,LightGBM (optimised),0.9407,0.546,0.8774,0.384
