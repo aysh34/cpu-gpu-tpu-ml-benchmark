@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 A comprehensive benchmarking suite for comparing CPU, GPU, and TPU performance on machine learning workloads.
 
