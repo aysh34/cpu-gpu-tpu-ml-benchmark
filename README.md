@@ -17,8 +17,6 @@ A notebook-based benchmark framework for evaluating CPU, GPU, and TPU performanc
 
 </div>
 
----
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -33,8 +31,6 @@ A notebook-based benchmark framework for evaluating CPU, GPU, and TPU performanc
 - [Contributing](#contributing)
 - [License](#license)
 
----
-
 ## Overview
 
 This repository contains two benchmark workstreams designed to compare model performance and resource utilization across CPU, GPU, and TPU runtimes:
@@ -43,8 +39,6 @@ This repository contains two benchmark workstreams designed to compare model per
 2. DeFiTransLyzer: DeFi fraud detection benchmarking
 
 Each workstream is implemented as a Jupyter notebook and produces structured outputs in CSV and PNG formats.
-
----
 
 ## Repository Structure
 
@@ -81,8 +75,6 @@ cpu-gpu-tpu-ml-benchmark/
 └── README.md
 ```
 
----
-
 ## Benchmark Workstreams
 
 ### Chartalist: BitcoinHeist Classification
@@ -99,8 +91,6 @@ cpu-gpu-tpu-ml-benchmark/
 - Runtime comparison includes CPU, GPU, and TPU
 - Output artifacts include performance metrics, speedup tables, and hardware comparison visualizations
 
----
-
 ## Environment Setup
 
 ### Local Execution
@@ -114,13 +104,6 @@ venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 jupyter notebook
 ```
-
-Open either notebook:
-
-- `Chartalist/Notebook/Chartalist_CPU_GPU_Comparison_1.ipynb`
-- `DeFiTransLyzer/Notebook/DeFi_Fraud_Detection_CPU_vs_GPU_TPU.ipynb`
-
----
 
 ## Google Colab Execution
 
@@ -145,8 +128,6 @@ Optional Google Drive mount:
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-
----
 
 ## Results Summary
 
@@ -201,8 +182,6 @@ Reported artifact paths:
 - `/content/drive/MyDrive/defi_hw_comparison/hardware_comparison.png`
 - `/content/drive/MyDrive/defi_hw_comparison/speedup_table.csv`
 
----
-
 ## Visual Highlights
 
 ### Chartalist: CPU vs GPU Comparison
@@ -236,8 +215,6 @@ Reported artifact paths:
 
 **Key Visual Insight**: In this benchmark configuration, TPU achieved the fastest training time (12.0895s, 1.26x vs CPU), while GPU runtime (23.5402s, 0.65x vs CPU) was slower than the CPU baseline.
 
----
-
 ## Reproducibility Guidance
 
 For high-fidelity reproduction:
@@ -248,8 +225,6 @@ For high-fidelity reproduction:
 4. Save outputs to a fixed, versioned path for traceability.
 
 Minor metric variation across repeated executions is expected due to runtime and hardware scheduling differences.
-
----
 
 ## Troubleshooting
 
@@ -272,8 +247,6 @@ Contributions are welcome.
 2. Create a feature branch.
 3. Update notebooks and corresponding result artifacts.
 4. Open a pull request with a concise summary of changes and metrics.
-
----
 
 ## License
 
