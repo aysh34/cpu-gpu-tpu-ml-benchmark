@@ -25,7 +25,6 @@ A notebook-based benchmark framework for evaluating CPU, GPU, and TPU performanc
 - [Repository Structure](#repository-structure)
 - [Benchmark Workstreams](#benchmark-workstreams)
 - [Environment Setup](#environment-setup)
-- [Google Colab Execution](#google-colab-execution)
 - [Results Summary](#results-summary)
 - [Visual Highlights](#visual-highlights)
 - [Reproducibility Guidance](#reproducibility-guidance)
@@ -106,15 +105,6 @@ venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 jupyter notebook
 ```
-
-## Google Colab Execution
-
-Direct Colab links:
-
-- Chartalist:
-  <https://colab.research.google.com/github/aysh34/cpu-gpu-tpu-ml-benchmark/blob/main/Chartalist/Notebook/Chartalist_CPU_GPU_Comparison_1.ipynb>
-- DeFiTransLyzer:
-  <https://colab.research.google.com/github/aysh34/cpu-gpu-tpu-ml-benchmark/blob/main/DeFiTransLyzer/Notebook/DeFi_Fraud_Detection_CPU_vs_GPU_TPU.ipynb>
 
 Recommended initialization cell:
 
