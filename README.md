@@ -229,8 +229,6 @@ Minor metric variation across repeated executions is expected due to runtime and
 - Missing packages:
   - Re-run `pip install -r requirements.txt`
 
----
-
 ## Contributing
 
 Contributions are welcome.
