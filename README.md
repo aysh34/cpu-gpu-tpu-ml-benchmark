@@ -1,6 +1,6 @@
-# CPU-GPU-TPU ML Benchmark Suite
-
 <div align="center">
+
+# CPU-GPU-TPU ML Benchmark Suite
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
